@@ -11,7 +11,7 @@ from cov_parser import cobertura
 cobertura("example.xml")
 ```
 
-In Cobertura, one `.xml` file contains coverage results for multiple files.
+In Cobertura, one `.xml` file contains coverage coverage results for multiple files.
 
 Output:
 ```python
@@ -22,7 +22,6 @@ Output:
 ```
 
 > Tips 🐙! `coverage.py`, a coverage measurement tool for Python, also produce an Cobertura-compatible XML report. Just use `coverage xml` instead of `coverage report` or `coverage html`.
-
 
 ## Gcov format
 ```python
