@@ -36,3 +36,6 @@ Output:
 ```python
 {1: 0, 2: 1, ....}, # a key is a line number 
 ```
+
+## Note that
+- Lines not appeared in the output dict are uncoverable lines.
