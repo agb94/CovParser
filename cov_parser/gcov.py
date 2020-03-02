@@ -1,5 +1,6 @@
 def gcov(path, f_lines=None):
     hits = {}
+    function = None
     with open(path, 'r') as f:
         for line in f:
             if line.startswith("function"):
