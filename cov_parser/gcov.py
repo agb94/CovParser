@@ -7,7 +7,7 @@ def gcov(path, f_lines=None):
                     function = line.split()[1]
                     f_lines[function] = []
                 continue
-            elif line.startswith("branch"):
+            elif line.startswith("branch") or line.startswith("call"):
                 continue
             count, number = line.split(':')[0].strip(), int(line.split(':')[1].strip())
             if number < 1 or count == '-':
